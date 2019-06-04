@@ -1,0 +1,90 @@
+Introduction to Go
+
+Jay Zheng
+
+* Possible Upcoming Talks
+- interfaces
+- concurrency patterns
+- error handling
+- testing
+- best practices
+
+* Overview
+- static typed
+- compiled
+- modern
+- concurrency
+
+- stability
+- performant
+- portable
+- productive
+
+- Etcd, docker, k8, etc.
+
+* Hello World
+.play -edit code/hello.go
+- packages
+- imports
+- exported names
+
+* Variables
+.play -edit code/variables.go
+
+* Zero Values Part 1
+- int: 0
+- strings: ""
+- bool: false
+
+* Constants
+.play -edit code/constants.go
+
+* Conditionals
+.play -edit code/conditions.go
+
+* Loop
+.play -edit code/loop.go
+
+* Array
+.play -edit code/array.go /^func main/,/^}/
+
+* Slice
+.play -edit code/slice.go /^func main/,/^}/
+
+* Map
+.play -edit code/map.go /^func main/,/^}/
+
+* Range
+.play -edit code/range.go /^func main/,/^}/
+
+* Functions
+.play -edit code/function.go
+
+* Closures
+.play -edit code/closure.go
+
+* Pointers
+.play -edit code/pointer.go
+
+* Structs
+.play -edit code/struct.go
+
+* Methods
+.play -edit code/method.go
+
+* Zero Values, Part 2
+- *slices*, *maps*, *interfaces*, *function*, *pointer* and *channel*: nil
+- different type of *nil* not equal
+.play -edit code/nil.go
+
+* Possible Upcoming Talks
+- interfaces
+- concurrency patterns
+- error handling
+- testing
+- best practices
+
+* Resources
+.link https://golang.org/doc/effective_go.html Effective Go
+.link https://gobyexample.com/ Go By Example
+.link https://github.com/golang/go/wiki/CodeReviewComments Go Code Review
